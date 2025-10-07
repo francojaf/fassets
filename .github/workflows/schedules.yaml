@@ -17,7 +17,7 @@ jobs:
       with:
         fetch-depth: 0
     - name: Install Node.js 18
-      uses: actions/setup-artifact@v4
+      uses: actions/upload-artifact@v4
       with:
         node-version: 18
     - name: Install node modules
