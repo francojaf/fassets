@@ -3,7 +3,7 @@ name: "Scheduled tests"
 on:
   workflow_dispatch:
   schedule:
-    - cron:  '0 0 * * 1' # 00:00 every monday
+    - cron:  '0 2 * * 1-5' # 00:00 every monday
 
 jobs:
   schedule-coverage:
